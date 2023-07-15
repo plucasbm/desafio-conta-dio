@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+D:\Estudos\Java\Desafios\desafio_conta_bancaria\.metadata\.plugins\org.eclipse.jdt.core
+3489969297.index
+1509799344.index
+1865797976.index

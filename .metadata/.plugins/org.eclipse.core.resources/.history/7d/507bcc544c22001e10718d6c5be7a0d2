@@ -1,0 +1,5 @@
+package conta_bancaria_dio;
+
+public class Banco {
+	public String nome;
+}

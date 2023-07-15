@@ -1,0 +1,46 @@
+package conta_bancaria_dio_contas;
+
+public abstract class Conta implements IConta{
+	protected static final int CONTA_PADRAO = 1;
+	private static int SEQUENCIAL = 1;
+	
+	protected int agencia;
+	protected int numConta;
+	protected double saldo;
+	
+	public Conta() {
+		this.agencia = Conta.CONTA_PADRAO;
+		this.numConta = SEQUENCIAL++;
+		this.saldo = 0.0;
+	}
+	
+	public int getAgencia() {
+		return agencia;
+	}
+
+	public int getNumConta() {
+		return numConta;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	@Override
+	public void sacar(double valor) {
+		this.saldo -= valor;
+		
+	}
+
+	@Override
+	public void depostiar(double valor) {
+		this.saldo += valor;
+	}
+
+	@Override
+	public void transferir(Conta contaDestino, double valor) {
+		this.sacar(valor);
+		contaDestino.depostiar(valor);
+	}
+	
+}

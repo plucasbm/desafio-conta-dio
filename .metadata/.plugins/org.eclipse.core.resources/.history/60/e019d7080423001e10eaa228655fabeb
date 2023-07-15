@@ -1,0 +1,13 @@
+package conta_bancaria_dio_contas;
+
+public class ContaPoupança extends Conta{
+	private static int SEQUENCIAL_CP = 1;
+
+	public ContaPoupança() {
+		super.agencia = Conta.CONTA_PADRAO;
+		super.numConta = SEQUENCIAL_CP++;
+	}
+	
+	
+	
+}

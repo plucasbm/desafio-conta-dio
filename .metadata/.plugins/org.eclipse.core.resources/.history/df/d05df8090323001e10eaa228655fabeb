@@ -1,0 +1,11 @@
+package conta_bancaria_dio_contas;
+
+public class ContaCorrente extends Conta{
+	private static int SEQUENCIAL_CC = 1;
+	
+	public ContaCorrente() {
+		super.agencia = 1;
+		super.numConta = SEQUENCIAL_CC++;
+	}
+	
+}

@@ -1,0 +1,19 @@
+package conta_bancaria_dio;
+
+public class ContaPoupança {
+	private int agencia;
+	private int numConta;
+	private double saldo;
+	
+	public void sacar() {
+		
+	}
+	
+	public void depostiar() {
+		
+	}
+	
+	public void transferir() {
+		
+	}
+}

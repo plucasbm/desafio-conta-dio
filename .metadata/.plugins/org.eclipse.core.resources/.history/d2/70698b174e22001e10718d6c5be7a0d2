@@ -1,0 +1,31 @@
+package conta_bancaria_dio_contas;
+
+public class Conta {
+	private int agencia;
+	private int numConta;
+	private double saldo;
+	
+	public int getAgencia() {
+		return agencia;
+	}
+
+	public int getNumConta() {
+		return numConta;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+	
+	public void sacar() {
+		
+	}
+	
+	public void depostiar() {
+		
+	}
+	
+	public void transferir() {
+		
+	}
+}

@@ -1,0 +1,7 @@
+package conta_bancaria_dio;
+
+public class ContaPoupança {
+	public int agencia;
+	public int numConta;
+	public double saldo;
+}

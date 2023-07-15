@@ -1,0 +1,13 @@
+package conta_bancaria_dio;
+
+public class Banco {
+	private String nomeBanco;
+
+	public String getNomeBanco() {
+		return nomeBanco;
+	}
+
+	public void setNome(String nomeBanco) {
+		this.nomeBanco = nomeBanco;
+	}
+}

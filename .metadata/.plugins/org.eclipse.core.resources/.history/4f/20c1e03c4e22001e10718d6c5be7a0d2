@@ -1,0 +1,9 @@
+package conta_bancaria_dio_contas;
+
+public interface IConta {
+	void sacar();
+	
+	void depostiar();
+	
+	void transferir();
+}

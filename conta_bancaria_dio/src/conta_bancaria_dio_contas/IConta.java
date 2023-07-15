@@ -1,0 +1,11 @@
+package conta_bancaria_dio_contas;
+
+public interface IConta {
+	void sacar(double valor);
+	
+	void depostiar(double valor);
+	
+	void transferir(Conta contaDestino, double valor);
+	
+	void gerarExtrato();
+}

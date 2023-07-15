@@ -1,0 +1,20 @@
+package conta_bancaria_dio;
+
+import conta_bancaria_dio_contas.Conta;
+import conta_bancaria_dio_contas.ContaCorrente;
+import conta_bancaria_dio_contas.ContaPoupanca;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Conta cc = new ContaCorrente();
+		cc.depostiar(100);
+		
+		Conta cp = new ContaPoupanca();
+		cc.transferir(cp, 32.50);
+		
+		cp.gerarExtrato();
+
+	}
+
+}

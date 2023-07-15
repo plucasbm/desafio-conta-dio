@@ -1,0 +1,38 @@
+package conta_bancaria_dio_contas;
+
+public abstract class Conta implements IConta{
+	private int agencia;
+	private int numConta;
+	private double saldo;
+	
+	public int getAgencia() {
+		return agencia;
+	}
+
+	public int getNumConta() {
+		return numConta;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	@Override
+	public void sacar(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void depostiar(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void transferir(Conta contaDestino, double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

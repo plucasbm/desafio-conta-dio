@@ -1,0 +1,16 @@
+package conta_bancaria_dio_contas;
+
+public class ContaCorrente extends Conta{
+
+	@Override
+	public void gerarExtrato() {
+		System.out.println("--- Extrato - Conta Corrente ---");
+		System.out.println(String.format("Agencia: %d", super.agencia));
+		System.out.println(String.format("Numero: %d", super.numConta));
+		System.out.println(String.format("Saldo: %.2f", super.saldo));
+	}
+	
+	
+	
+	
+}
